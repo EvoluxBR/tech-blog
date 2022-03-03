@@ -11,6 +11,7 @@ on:
 jobs:
   build:
     name: Build
+    environment: deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +24,9 @@ jobs:
           node-version: 13.x
 
       - name: Install NPM packages
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         run: npm ci
 
       - name: Build project
