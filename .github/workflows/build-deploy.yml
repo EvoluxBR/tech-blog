@@ -18,15 +18,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Setup SSH Key for evolux-ui
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 13.x
 
       - name: Install NPM packages
-        uses: webfactory/ssh-agent@v0.4.1
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         run: npm ci
 
       - name: Build project
