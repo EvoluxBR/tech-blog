@@ -1,5 +1,11 @@
 # Evolux blog
 
+## Dev setup
+
+Before you start coding, please run the following line:
+`npx husky add .husky/pre-commit "npx lint-staged"`
+This will help to enforce the code style during development, forcing the linter to always run before you commit something.
+
 ## Running locally
 
 `npm run develop`
