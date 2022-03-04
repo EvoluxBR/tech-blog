@@ -3,9 +3,9 @@ import { render, screen } from '@testing-library/react';
 import Layout from './layout';
 
 describe('Layout component', () => {
-  it('Should render the component', () => {
+  it('Should render the component', async () => {
     render(<Layout title="title"> Something </Layout>);
-    expect(screen.getByText('title')).toBeVisible();
+    expect(await screen.findByText('title')).toBeVisible();
     expect(screen.getByText('Something')).toBeVisible();
   });
 });
