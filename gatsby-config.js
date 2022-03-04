@@ -1,8 +1,9 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
+  pathPrefix: '/tech-blog',
   siteMetadata: {
     title: 'new',
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://evoluxbr.github.io/tech-blog/',
   },
   plugins: [
     'gatsby-plugin-styled-components',
