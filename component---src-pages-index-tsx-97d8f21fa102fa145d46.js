@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkevolux_tech_blog=self.webpackChunkevolux_tech_blog||[]).push([[691],{1255:function(e,t,l){l.r(t),l.d(t,{default:function(){return u}});var n=l(7294),r=function(e){var t=e.title,l=e.children;return n.createElement("div",null,n.createElement("main",null,n.createElement("p",null,t),l))},u=function(){return n.createElement(r,{title:"Evolux Blog"},n.createElement("p",null,"Work in progress"))}}}]);
-//# sourceMappingURL=component---src-pages-index-tsx-97d8f21fa102fa145d46.js.map
