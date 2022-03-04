@@ -1,8 +1,12 @@
 import React from 'react';
 import 'evolux-ui-v2/dist/main.css';
-import { Text } from 'evolux-ui-v2';
+import Loadable from '@loadable/component';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
+
+const Text = Loadable(() => import('evolux-ui-v2'), {
+  resolveComponent: (components) => components.Text,
+});
 
 const IndexPage = () => {
   return (

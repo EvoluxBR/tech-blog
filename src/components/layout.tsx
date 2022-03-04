@@ -1,9 +1,13 @@
 import React from 'react';
-import { Text } from 'evolux-ui-v2';
+import Loadable from '@loadable/component';
+
+const Text = Loadable(() => import('evolux-ui-v2'), {
+  resolveComponent: (components) => components.Text,
+});
 
 type LayoutProps = React.HTMLAttributes<HTMLDivElement> & {
   title: string;
-  children: JSX.Element;
+  children: React.ReactNode;
 };
 
 const Layout = ({ title, children }: LayoutProps) => {
