@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"05/04/2022","title":"O menino do parafuso de ouro no umbigo","author":"Jefferson Carvalho","authorEmail":"jefferson.carvalho@evolux.net.br"},"id":"9c90b807-676f-5e66-b099-1b3d08c9ba9c","excerpt":"Era uma vez, um garotinho nascido numa cidadezinha. Era perfeito, ou assim achava sua mãe. Mas havia uma coisa diferente nele. O menino…","timeToRead":2,"slug":"test-post3/"},{"frontmatter":{"date":"05/04/2022","title":"The quick brown fox jumps over the lazy dog","author":"Jefferson Carvalho","authorEmail":"jefferson.carvalho@evolux.net.br"},"id":"d3526318-e338-54d1-84ed-951cb6488b89","excerpt":"Second test Silvio Santos Ipsum Wellintaaammmmmmmmm. Ha hai. Bem boladoam, bem boladoam. Bem gozadoam. É com você Lombardiam. Mah é a porta…","timeToRead":1,"slug":"test-post2/"},{"frontmatter":{"date":"01/04/2022","title":"Test","author":"Jefferson Carvalho","authorEmail":"jefferson.carvalho@evolux.net.br"},"id":"9ec3e0db-b11d-5e5a-bef5-f62eb9d7ff9a","excerpt":"This is a test post. Code example: Some random text just to show off: Silvio Santos Ipsum É namoro ou amizadeemm? Mah você mora com o papai…","timeToRead":1,"slug":"test-post/"}]}},"pageContext":{}},
     "staticQueryHashes": []}
