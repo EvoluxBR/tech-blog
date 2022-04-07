@@ -13,7 +13,7 @@ Then open your browser at `localhost:8000`
 
 ## Writting posts
 
-To write a new post for the blog, simply create a new folder in the `blog` folder. The folder's name will be used in the URL (e.g: `/blog/folder-name`), and create a `.mdx` file inside it. with the post's content.
+To write a new post for the blog, simply create a new folder in the `blog` folder. The folder's name will be used in the URL (e.g: `/blog/folder-name`), and create a `index.mdx` file inside it. with the post's content.
 
 The posts should be written in markdown. If you don't know what it is, you can check the [Markdown Guide](https://commonmark.org).
 
